@@ -6,7 +6,7 @@
  *
  * Return: positive or negative
  */
-int main(void)
+int 'main':(void)
 {
         int n;
 
@@ -22,7 +22,7 @@ n= rand() - RAND_MAX / 2;
 	 }
          else if(n < 0)
 	 {
-	 pritf("is negative.\n");
+	 printf("is negative.\n");
 	 }
         return (0);
 }
