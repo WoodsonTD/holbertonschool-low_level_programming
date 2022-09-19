@@ -6,7 +6,7 @@
  *
  * Return: positive or negative
  */
-int 'main':(void)
+int main()
 {
         int n;
 
