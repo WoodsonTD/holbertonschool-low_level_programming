@@ -1,7 +1,7 @@
 #include <studio.h>
 
 /**
- * main -
+ * main - print upper and lower
  * Return: Always 0
  */
 
