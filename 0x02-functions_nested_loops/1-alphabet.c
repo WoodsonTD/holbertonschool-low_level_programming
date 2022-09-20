@@ -2,11 +2,11 @@
 
 /**
  * print_alphabet - prints lowercase alphabet
- * Return: 0
+ * Return: Always 0
  */
 
 void print_alphabet(void)
-{
+'{'
 	char alpha;
 
 	alpha = 'a';
@@ -17,4 +17,4 @@ void print_alphabet(void)
 		alpha++;
 	}
 	_putchar('\n');
-}
+'}'
