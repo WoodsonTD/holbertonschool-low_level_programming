@@ -5,10 +5,16 @@
  *Return: Always 0
  */
 
- (for(int x = 'A'; x <= 'Z'; x++)
+int main(void)
 {
-    int lower_x = tolower(x);
-    putchar(lower_x);
+	char alpha = 'a';
+
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
+	putchar('\n');
 
 	return (0);
 }
