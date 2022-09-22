@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void jack_bauer(void) - print every minute of a day
+ * jack_bauer - print every minute of a day
  * Description: print minutes 00:00 to 23:59
  */
 
@@ -20,7 +20,7 @@ void jack_bauer(void)
 			_putchar('0' + (min / 10));
 			_putchar('0' + (min % 10));
 			_putchar('\n');
-		        min++;
+			min++;
 		}
 		min = 0;
 		hours++;
