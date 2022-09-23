@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * _isupper - check for uppercase character
+ * main - check for uppercase character
  * @c: character to check
  * Return: Always 0
  */
