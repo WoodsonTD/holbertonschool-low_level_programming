@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - check for uppercase character
+ * _isupper - check for uppercase character
  * @c: character to check
  * Return: Always 0
  */
@@ -18,5 +18,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
