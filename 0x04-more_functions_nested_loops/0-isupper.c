@@ -3,14 +3,14 @@
 #include <ctype.h>
 
 /**
- * main - check for uppercase character
+ * _isupper - check for uppercase character
  * @c: character to check
  * Return: Always 0
  */
 
 int _isupper(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
@@ -18,5 +18,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
