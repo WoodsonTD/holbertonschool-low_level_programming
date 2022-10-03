@@ -1,5 +1,5 @@
-#ifndef Holberton_H
-#define Holberton_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
 /* prototypes */
 
@@ -12,4 +12,4 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 
-#endif /* Holberton_H */
+#endif /* HOLBERTON_H */
