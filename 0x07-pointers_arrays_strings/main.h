@@ -1,5 +1,5 @@
-#ifndef main_h
-#define main_h
+#ifndef MAIN_H
+#define MAIN_H
 
 /* prototypes */
 
@@ -12,4 +12,4 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 
-#endif /* main_h */
+#endif /* MAIN_H */
