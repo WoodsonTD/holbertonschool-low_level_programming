@@ -1,5 +1,8 @@
 #ifndef DOG_H
 #define DOG_H
+/* libraries */
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct dog - contains dog related data
