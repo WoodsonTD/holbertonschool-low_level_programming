@@ -2,7 +2,7 @@
 
 /**
  * free_list - frees list_t
- *@h: points to head
+ *@head: points to head
  */
 
 void free_list(list_t *head)
