@@ -1,24 +1,19 @@
 #include "lists.h"
 
 /**
- * print_listint - prints elements of listint_t
- * @h: pointer to list
- * Return: number of nodes
+ * print_listint - writes sll node int mems to SO
+ * @h: sll HEAD pointer
+ * Return: number of nodes in sll
  */
-
 size_t print_listint(const listint_t *h)
 {
-	int count = 0;
+	size_t nodeNum = 0;
 
-	if (h == NULL)
-		return (0);
-
-	while (h != NULL)
+	while (h)
 	{
+		nodeNum++;
 		printf("%d\n", h->n);
 		h = h->next;
-		count++;
 	}
-
-	return (count);
+	return (nodeNum);
 }
